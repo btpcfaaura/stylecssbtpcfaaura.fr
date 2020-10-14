@@ -26,3 +26,13 @@ thead th:nth-child(4) {
 th, td {
   padding: 20px;
 }
+tbody tr:nth-child(odd) {
+  background-color: #ffed00;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #232323;
+}
+
+table {
+  background-color: #ff33cc;
